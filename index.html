@@ -1,48 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>หน้าแรก</title>
-    <style>
-      body {
-        background-color: #f2f2f2;
-      }
-      nav {
-        background-color: #333;
-        height: 60px;
-      }
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        height: 100%;
-      }
-      li {
-        float: left;
-        height: 100%;
-      }
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        text-decoration: none;
-        font-size: 24px;
-      }
-      li a:hover {
-        background-color: #ddd;
-      }
-    </style>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="hide.html">หนัง</a></li>
-        <li><a href="ore.html">แร่</a></li>
-        <li><a href="fiber.html">ฝ้าย</a></li>
-        <li><a href="wood.html">ไม้</a></li>
-        <li><a href="stone.html">หิน</a></li>
-      </ul>
-    </nav>
-  </body>
+<head>
+	<title>Link Buttons with Hover Effects</title>
+	<style>
+		/* Style for link buttons */
+		.link-button {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #4CAF50;
+			color: white;
+			text-decoration: none;
+			border-radius: 5px;
+			transition: background-color 0.3s;
+		}
+		/* Hover effect for link buttons */
+		.link-button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<!-- Link buttons with hover effects -->
+	<a href="ore.html" class="link-button">แร่เหล็ก</a>
+	<a href="hide.html" class="link-button">หนัง</a>
+	<a href="fiber.html" class="link-button">ฝ้าย</a>
+	<a href="wood.html" class="link-button">ไม้</a>
+	<a href="stone.html" class="link-button">หิน</a>
+</body>
 </html>

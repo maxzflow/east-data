@@ -17,18 +17,35 @@
 		.link-button:hover {
 			background-color: #3e8e41;
 		}
+html, body { height: 100%; }
+
+.parent {
+  height: 200px;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+}
 	</style>
 </head>
 <body>
+
 	<!-- Link buttons with hover effects -->
-	<center>
-		<div>
-	<a href="ore.html" class="link-button">แร่เหล็ก</a>
+	<div class="parent">
+  <div class="child"><a href="ore.html" class="link-button">แร่เหล็ก</a>
 	<a href="hide.html" class="link-button">หนัง</a>
 	<a href="fiber.html" class="link-button">ฝ้าย</a>
 	<a href="wood.html" class="link-button">ไม้</a>
-	<a href="stone.html" class="link-button">หิน</a>
-		</div>
-</center>
+	<a href="stone.html" class="link-button">หิน</a></div>
+</div>
+		
+	
+
 </body>
 </html>
